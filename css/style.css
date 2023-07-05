@@ -1,0 +1,68 @@
+/* style de la page */
+
+body {
+    background-color: #fff3db;
+    font-family: sans-serif;
+}
+
+/* tous les titres sont centrés */
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* styles des titres */
+
+h1 {
+    background-color: #f02425;
+    text-transform: uppercase;
+    color: #ffffff; /*raccourci #fff quand on répète les mêmes chiffres*/
+}
+
+h2 {
+    color: #f02425;
+}
+
+h3 {
+    font-weight: normal; /* on enlève le style par défaut gras */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* styles strong et emphase */
+
+strong {
+    color: #f02425;
+}
+
+em {
+    font-style: normal; /* on enlève le style par défaut italique */
+    color: #f02425;
+}
+
+img {
+    width: 100%; /* l'image prends toujours toute la largeur dans la page */
+}
+
+/* liens */
+
+a {
+    color: #0aa; /* la couleur s'applique sur les liens visités ou non */
+    font-weight: bold;
+}
+
+
+
+.astuce-importante {
+    background-color: #e81717;
+}
+
+.astuce {
+    background-color: #edd29a;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #5d5d5d;
+    font-size: 12px;
+}
+
